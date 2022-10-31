@@ -17,7 +17,12 @@ const Download = () => {
         </div>
         <button
           className={styles.btnPrimary}
-          link="https://github.com/setTimith/React-Native-Application"
+          onClick={() =>
+            window.open(
+              "https://github.com/setTimith/React-Native-Application",
+              "_blank",
+            )
+          }
         >
           Source Code
         </button>
