@@ -15,7 +15,12 @@ const Download = () => {
             Get the full source code on GitHub
           </p>
         </div>
-        <button className={styles.btnPrimary}>Source Code</button>
+        <button
+          className={styles.btnPrimary}
+          link="https://github.com/setTimith/React-Native-Application"
+        >
+          Source Code
+        </button>
         <div className={styles.flexCenter}>
           <img
             src={assets.scene}
