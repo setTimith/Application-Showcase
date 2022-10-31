@@ -38,7 +38,10 @@ const SectionWrapper = ({
           </h1>
           <p className={`${styles.descriptionText}`}>{description}</p>
           {showBtn && (
-            <Button assetsUrl={assets.expo} link="deplyhdeyduhfeiwh" />
+            <Button
+              assetsUrl={assets.expo}
+              link="https://expo.dev/@thomasabboud/nftPortfolioApp?serviceType=classic&distribution=expo-go"
+            />
           )}
         </div>
         <div className={`flex-1 ${styles.flexCenter} p-8 sm:px-0`}>
